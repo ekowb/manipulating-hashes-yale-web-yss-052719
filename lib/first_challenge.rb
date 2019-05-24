@@ -19,7 +19,7 @@ def first_challenge
     data.each do |attribute, value|
       if attribute == :favorite_icecream_flavors
         if value == "strawberry"
-          puts "got here"
+          attribute.shift
         end
       end
     end
