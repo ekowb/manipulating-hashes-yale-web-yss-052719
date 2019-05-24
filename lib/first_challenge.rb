@@ -1,4 +1,4 @@
-require_relative './spec/first_challenge_spec.rb'
+require_relative 'spec_helper'
 def first_challenge
   contacts = {
     "Jon Snow" => {
