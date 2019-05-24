@@ -1,3 +1,4 @@
+require './spec/first_challenge_spec.rb'
 def first_challenge
   contacts = {
     "Jon Snow" => {
